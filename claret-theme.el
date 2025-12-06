@@ -450,6 +450,10 @@
    `(whitespace-space-before-tab ((,class (:inherit font-lock-delimiter-face))))
    `(whitespace-tab ((,class (:inherit font-lock-delimiter-face))))
    `(whitespace-trailing ((,class (:inherit font-lock-delimiter-face))))
+
+   ;;; erc
+   `(erc-nick-default-face ((,class (:inherit font-lock-function-name-face))))
+   `(erc-notice-face ((,class (:inherit font-lock-comment-face))))
    ))
 
 ;;;###autoload
