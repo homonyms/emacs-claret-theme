@@ -245,6 +245,7 @@
    `(font-lock-warning-face ((,class (:inherit warning))))
 
     ;;; eglot
+   `(eglot-mode-line ((,class ())))
    `(eglot-highlight-symbol-face ((,class (:underlint t))))
    `(eglot-inlay-hint-face ((,class (:inherit font-lock-comment-face :height 0.8))))
    `(eglot-semantic-operator-face ((,class (:inherit font-lock-operator-face))))
