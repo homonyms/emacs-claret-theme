@@ -434,6 +434,7 @@
    `(magit-diff-removed-highlight ((,class (:background ,red-700 :foreground, red-100))))
    `(magit-section-highlight ((,class (:background ,neutral-800))))
    `(magit-diff-context-highlight ((,class (:inherit magit-section-highlight))))
+   `(magit-diff-lines-heading ((,class (:background ,orange-700))))
 
    ;;; eldoc-box
    `(eldoc-box-border ((,class (:background ,neutral-700))))
@@ -451,6 +452,13 @@
    `(whitespace-space-before-tab ((,class (:inherit font-lock-delimiter-face))))
    `(whitespace-tab ((,class (:inherit font-lock-delimiter-face))))
    `(whitespace-trailing ((,class (:inherit font-lock-delimiter-face))))
+
+   ;;; wgrep
+   `(wgrep-face ((,class ())))
+   `(wgrep-delete-face ((,class ())))
+   `(wgrep-file-face ((,class ())))
+   `(wgrep-reject-face ((,class ())))
+   `(wgrep-done-face ((,class ())))
 
    ;;; erc
    `(erc-nick-default-face ((,class (:inherit font-lock-function-name-face))))
