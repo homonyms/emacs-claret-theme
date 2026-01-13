@@ -152,8 +152,7 @@
       (yellow-700 "#854d0e")
       (yellow-800 "#a16207")
       (yellow-900 "#713f12")
-      (yellow-950 "#422006")
-      )
+      (yellow-950 "#422006"))
   (custom-theme-set-faces
    `claret
    `(default ((,class (:background ,neutral-900 :foreground ,neutral-200))))
@@ -207,18 +206,18 @@
    `(buffer-menu-buffer ((,class (:inherit font-lock-constant-face))))
    `(completions-first-difference ((,class ())))
    `(completions-common-part ((,class (:background ,pink-950 :foreground ,pink-200))))
-   
+
    ;;; paren
    `(blink-matching-paren-offscreen ((,class ())))
    `(show-paren-match ((,class (:background ,pink-950 :foreground ,neutral-200))))
    `(show-paren-match-expression ((,class (:background ,pink-950 :foreground ,neutral-900))))
    `(show-paren-mismatch ((,class (:background ,pink-700))))
-   
+
    ;;; flymake
    `(flymake-warning ((,class (:underline (:color ,yellow-600 :style wave)))))
    `(flymake-error ((,class (:underline (:color ,red-600 :style wave)))))
    `(flymake-note ((,class (:underline (:color ,blue-600 :style wave)))))
-   
+
    ;;; font-lock faces
    `(font-lock-bracket-face ((,class (:inherit font-lock-punctuation-face))))
    `(font-lock-builtin-face ((,class (:foreground ,pink-200))))
@@ -284,7 +283,7 @@
    ;;; pulse
    `(pulse-highlight-start-face ((,class (:inherit region :extend t))))
    `(pulse-highlight-face ((,class (:inherit region :extend t))))
-   
+
    ;;; Meow
    `(meow-beacon-indicator ((,class ())))
    `(meow-keypad-indicator ((,class ())))
@@ -348,7 +347,7 @@
    `(diff-refine-added ((,class (:background ,green-800))))
    `(diff-refine-changed ((,class (:background ,yellow-800))))
    `(diff-refine-removed ((,class (:background ,red-800))))
-   
+
    ;;; diff-hl
    `(diff-hl-change ((,class (:foreground ,stone-700))))
    `(diff-hl-delete ((,class (:foreground ,red-700))))
@@ -382,7 +381,7 @@
    `(corfu-default ((,class (:background ,neutral-950))))
    `(corfu-deprecated ((,class (:inherit shadow :strike-through t))))
    `(corfu-popupinfo ((,class (:inherit corfu-default))))
-   
+
    ;;; org
    `(org-document-title ((,class (:inherit variable-pitch-text :height 1.2 :foreground ,blue-500))))
    `(org-level-1 ((,class (:inherit variable-pitch-text :height 1.35 :foreground ,neutral-50))))
@@ -420,7 +419,7 @@
    `(rst-level-4 ((,class (:foreground ,yellow-200))))
    `(rst-level-5 ((,class (:foreground ,fuchsia-200))))
    `(rst-level-6 ((,class (:foreground ,cyan-200))))
-   
+
    ;;; ace-window
    `(aw-leading-char-face ((,class (:inherit font-lock-keyword-face :height 3.0))))
    `(aw-minibuffer-leading-char-face ((,class (:inherit font-lock-keyword-face :height 1.0))))
