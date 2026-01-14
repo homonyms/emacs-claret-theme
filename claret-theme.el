@@ -366,7 +366,7 @@
 
    ;;; citre
    `(citre-peek-ace-str-face ((,class (:background ,violet-600 :foreground ,neutral-100))))
-   `(citre-peek-border-face ((,class (:height 15 :background ,rose-800 :extend t))))
+   `(citre-peek-border-face ((,class (:height 15 :background ,neutral-400 :extend t))))
    `(citre-peek-current-symbol-face ((,class (:inherit font-lock-constant-face))))
    `(citre-peek-symbol-face ((,class (:inherit default))))
    `(citre-tag-annotation-face ((,class (:inherit font-lock-keyword-face))))
