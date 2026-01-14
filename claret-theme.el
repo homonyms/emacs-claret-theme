@@ -272,8 +272,7 @@
    `(tab-bar-tab-inactive ((,class (:inherit mode-line-inactive :box (:line-width 5 :color ,neutral-900) :underline ,neutral-50 :overline nil))))
 
    ;;; header line
-   `(header-line ((,class ())))
-   `(header-line-inactive ((,class ())))
+   `(header-line ((,class (:background ,neutral-700 :underline (:color ,neutral-500)))))
 
    ;;; mode line
    `(mode-line ((,class (:overline ,neutral-400 :box ,neutral-900 :background ,neutral-900 :foreground ,neutral-200))))
