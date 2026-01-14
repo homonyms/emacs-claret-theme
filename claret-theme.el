@@ -279,6 +279,11 @@
    `(mode-line-inactive ((,class (:inherit mode-line :overline ,neutral-600 :foreground ,neutral-500))))
    `(mode-line-highlight ((,class (:inherit highlight))))
 
+   ;;; window divider
+   `(window-divider ((,class (:foreground ,neutral-600))))
+   `(window-divider-first-pixel ((,class (:inherit window-divider))))
+   `(window-divider-last-pixel ((,class (:inherit window-divider))))
+
    ;;; pulse
    `(pulse-highlight-start-face ((,class (:inherit region :extend t))))
    `(pulse-highlight-face ((,class (:inherit region :extend t))))
