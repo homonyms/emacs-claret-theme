@@ -267,9 +267,9 @@
    `(isearch-group-2 ((,class (:background ,fuchsia-600))))
 
    ;;; tab bar
-   `(tab-bar ((,class (:box nil))))
-   `(tab-bar-tab ((,class (:inherit mode-line :box (:line-width 5 :color ,neutral-900) :underline ,neutral-700 :overline nil))))
-   `(tab-bar-tab-inactive ((,class (:inherit mode-line-inactive :box (:line-width 5 :color ,neutral-900) :underline ,neutral-50 :overline nil))))
+   `(tab-bar ((,class ())))
+   `(tab-bar-tab ((,class (:inherit mode-line :box (:line-width 5 :color ,neutral-900) :underline nil :overline nil))))
+   `(tab-bar-tab-inactive ((,class (:inherit mode-line-inactive :box (:line-width 5 :color ,neutral-900) :underline nil :overline nil))))
 
    ;;; header line
    `(header-line ((,class (:background ,neutral-700 :underline (:color ,neutral-500)))))
@@ -466,6 +466,9 @@
    ;;; erc
    `(erc-nick-default-face ((,class (:inherit font-lock-function-name-face))))
    `(erc-notice-face ((,class (:inherit font-lock-comment-face))))
+
+   ;;; notmuch
+   `(notmuch-crypto-signature-unknown ((,class (:inherit error))))
    ))
 
 ;;;###autoload
