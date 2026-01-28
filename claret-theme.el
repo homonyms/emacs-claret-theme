@@ -342,6 +342,14 @@
    `(diredfl-tagged-autofile-name ((,class ())))
    `(diredfl-write-priv ((,class (:inherit dired-perm-write))))
 
+   ;;; dired-hacks
+   `(dired-subtree-depth-1-face ((,class ())))
+   `(dired-subtree-depth-2-face ((,class ())))
+   `(dired-subtree-depth-3-face ((,class ())))
+   `(dired-subtree-depth-4-face ((,class ())))
+   `(dired-subtree-depth-5-face ((,class ())))
+   `(dired-subtree-depth-6-face ((,class ())))
+
    ;;; sh-script
    `(sh-escaped-newline ((,class ())))
    `(sh-heredoc ((,class ())))
